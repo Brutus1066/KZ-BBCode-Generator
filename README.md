@@ -98,7 +98,7 @@ Requirements:
 
 ```powershell
 # Clone repository
-git clone https://github.com/yourusername/KZ-BBCode-Generator.git
+git clone https://github.com/Brutus1066/KZ-BBCode-Generator.git
 cd KZ-BBCode-Generator
 
 # Build
