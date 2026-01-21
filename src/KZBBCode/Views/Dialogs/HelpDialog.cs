@@ -263,27 +263,35 @@ HEADERS:
 
                         THEME GUIDE
 
-This application includes 12 visual themes:
+This application includes 22 visual themes:
 
-DARK THEMES:
-  Dark Mode      - Default, professional dark theme
-  Matrix         - Green terminal aesthetic
-  Neon           - Vibrant magenta and cyan
-  Cyberpunk      - Red and gold futuristic
-  Ocean          - Cool blue tones
-  Synthwave      - Retro 80s pink/purple
+DARK THEMES (13):
+  Dark Mode         Default professional dark theme
+  Dracula           Popular purple accent theme
+  Tokyo Night       Rich blue tones
+  Catppuccin Mocha  Soothing pastel dark
+  Gruvbox Dark      Retro groove aesthetic
+  Matrix            Green terminal vibes
+  Neon              Vibrant magenta/cyan
+  Cyberpunk         Red and gold futuristic
+  Ocean             Cool blue depths
+  Synthwave         Retro 80s pink/purple
+  Solarized Dark    Classic developer theme
+  Monokai           Sublime Text inspired
+  Nord              Arctic color palette
 
-LIGHT THEMES:
-  Light Mode     - Clean, minimal light theme
-  Solarized Light- Warm, easy on the eyes
+LIGHT THEMES (8):
+  Light Mode        Clean minimal light
+  GitHub Light      GitHub's clean interface
+  One Light         Atom editor classic
+  Gruvbox Light     Warm retro groove
+  Catppuccin Latte  Soft pastel light
+  Paper             Warm and easy reading
+  Tokyo Night Light Soft blue variant
+  Solarized Light   Warm, easy on eyes
 
-DEVELOPER THEMES:
-  Solarized Dark - Popular code editor theme
-  Monokai        - Sublime Text inspired
-  Nord           - Arctic color palette
-
-ACCESSIBILITY:
-  High Contrast  - Maximum readability
+ACCESSIBILITY (1):
+  High Contrast     Maximum readability
 
 
 Switch themes using the dropdown at the top.
@@ -406,7 +414,7 @@ LICENSE          MIT License
 FEATURES
 ───────────────────────────────────────────────────────────────
   ✓ 10 Platform Support    Forums & Chat
-  ✓ 12 Visual Themes       Dark, Light, Custom
+  ✓ 22 Visual Themes       Dark, Light, Accessible
   ✓ 20+ Tag Types          Text, Media, Structure
   ✓ Auto-Copy              Instant clipboard
   ✓ Keyboard Shortcuts     Power user friendly
