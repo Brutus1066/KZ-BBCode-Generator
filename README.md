@@ -36,8 +36,9 @@ A modern, extensible Windows application for generating BBCode and Markdown form
 - **Structure**: Quote, Code, Spoiler, List, Table, Align
 - **Special**: Headers, Horizontal Rule
 
-### 16 Visual Themes
+### 22 Visual Themes
 
+**Dark Themes:**
 1. Dark Mode (default)
 2. Dracula (purple accents)
 3. Tokyo Night (rich blues)
@@ -48,12 +49,22 @@ A modern, extensible Windows application for generating BBCode and Markdown form
 8. Cyberpunk (red/gold)
 9. Ocean (blue tones)
 10. Synthwave (80s pink/purple)
-11. Light Mode
-12. Solarized Dark
-13. Solarized Light
-14. Monokai
-15. Nord
-16. High Contrast (accessibility)
+11. Solarized Dark
+12. Monokai
+13. Nord
+
+**Light Themes:**
+14. Light Mode
+15. GitHub Light (clean minimal)
+16. One Light (Atom style)
+17. Gruvbox Light (warm retro)
+18. Catppuccin Latte (soft pastels)
+19. Paper (warm and easy)
+20. Tokyo Night Light (soft blues)
+21. Solarized Light
+
+**Accessibility:**
+22. High Contrast
 
 ### Additional Features
 

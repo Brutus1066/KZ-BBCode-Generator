@@ -304,10 +304,119 @@ public static class ThemeService
     );
 
     /// <summary>
+    /// GitHub Light theme - Clean and minimal like GitHub's interface.
+    /// </summary>
+    public static Theme GitHubLight => new(
+        "GitHub Light",
+        Color.FromArgb(255, 255, 255),   // Background
+        Color.FromArgb(36, 41, 47),      // Foreground
+        Color.FromArgb(9, 105, 218),     // Blue accent
+        Color.FromArgb(246, 248, 250),   // Button background
+        Color.FromArgb(36, 41, 47),      // Button foreground
+        Color.FromArgb(255, 255, 255),   // Input background
+        Color.FromArgb(36, 41, 47),      // Input foreground
+        Color.FromArgb(246, 248, 250),   // Output background
+        Color.FromArgb(31, 35, 40),      // Output foreground
+        Color.FromArgb(208, 215, 222),   // Border
+        Color.FromArgb(218, 55, 100)     // Pink highlight
+    );
+
+    /// <summary>
+    /// One Light theme - Atom editor's classic light theme.
+    /// </summary>
+    public static Theme OneLight => new(
+        "One Light",
+        Color.FromArgb(250, 250, 250),   // Background
+        Color.FromArgb(56, 58, 66),      // Foreground
+        Color.FromArgb(64, 120, 242),    // Blue accent
+        Color.FromArgb(234, 234, 234),   // Button background
+        Color.FromArgb(56, 58, 66),      // Button foreground
+        Color.FromArgb(255, 255, 255),   // Input background
+        Color.FromArgb(56, 58, 66),      // Input foreground
+        Color.FromArgb(240, 240, 240),   // Output background
+        Color.FromArgb(80, 161, 79),     // Green output
+        Color.FromArgb(200, 200, 200),   // Border
+        Color.FromArgb(166, 38, 164)     // Purple highlight
+    );
+
+    /// <summary>
+    /// Gruvbox Light theme - Retro groove light color scheme.
+    /// </summary>
+    public static Theme GruvboxLight => new(
+        "Gruvbox Light",
+        Color.FromArgb(251, 241, 199),   // bg0
+        Color.FromArgb(60, 56, 54),      // fg1
+        Color.FromArgb(215, 153, 33),    // Yellow accent
+        Color.FromArgb(235, 219, 178),   // bg1
+        Color.FromArgb(60, 56, 54),      // fg1
+        Color.FromArgb(251, 241, 199),   // bg0
+        Color.FromArgb(80, 73, 69),      // fg2
+        Color.FromArgb(242, 229, 188),   // bg2
+        Color.FromArgb(121, 116, 14),    // Green output
+        Color.FromArgb(168, 153, 132),   // gray
+        Color.FromArgb(204, 36, 29)      // Red highlight
+    );
+
+    /// <summary>
+    /// Catppuccin Latte theme - Light soothing pastel theme.
+    /// </summary>
+    public static Theme CatppuccinLatte => new(
+        "Catppuccin Latte",
+        Color.FromArgb(239, 241, 245),   // Base
+        Color.FromArgb(76, 79, 105),     // Text
+        Color.FromArgb(30, 102, 245),    // Blue accent
+        Color.FromArgb(230, 233, 239),   // Surface0
+        Color.FromArgb(76, 79, 105),     // Text
+        Color.FromArgb(239, 241, 245),   // Base
+        Color.FromArgb(92, 95, 119),     // Subtext1
+        Color.FromArgb(220, 224, 232),   // Mantle
+        Color.FromArgb(64, 160, 43),     // Green output
+        Color.FromArgb(188, 192, 204),   // Surface1
+        Color.FromArgb(234, 118, 203)    // Pink highlight
+    );
+
+    /// <summary>
+    /// Paper theme - Warm and easy on the eyes.
+    /// </summary>
+    public static Theme Paper => new(
+        "Paper",
+        Color.FromArgb(248, 244, 236),   // Warm white background
+        Color.FromArgb(68, 68, 68),      // Dark gray text
+        Color.FromArgb(56, 132, 189),    // Blue accent
+        Color.FromArgb(235, 230, 220),   // Button background
+        Color.FromArgb(68, 68, 68),      // Button foreground
+        Color.FromArgb(255, 251, 243),   // Input background
+        Color.FromArgb(68, 68, 68),      // Input foreground
+        Color.FromArgb(240, 236, 228),   // Output background
+        Color.FromArgb(45, 120, 90),     // Teal output
+        Color.FromArgb(210, 205, 195),   // Border
+        Color.FromArgb(199, 91, 122)     // Rose highlight
+    );
+
+    /// <summary>
+    /// Tokyo Night Light theme - Soft light variant of Tokyo Night.
+    /// </summary>
+    public static Theme TokyoNightLight => new(
+        "Tokyo Night Light",
+        Color.FromArgb(213, 214, 219),   // Background
+        Color.FromArgb(52, 59, 88),      // Foreground
+        Color.FromArgb(52, 84, 138),     // Blue accent
+        Color.FromArgb(200, 201, 207),   // Button background
+        Color.FromArgb(52, 59, 88),      // Button foreground
+        Color.FromArgb(223, 224, 229),   // Input background
+        Color.FromArgb(52, 59, 88),      // Input foreground
+        Color.FromArgb(200, 201, 207),   // Output background
+        Color.FromArgb(72, 94, 48),      // Green output
+        Color.FromArgb(175, 177, 186),   // Border
+        Color.FromArgb(143, 81, 128)     // Pink highlight
+    );
+
+    /// <summary>
     /// All available themes in display order.
     /// </summary>
     public static IReadOnlyList<Theme> AllThemes => new[]
     {
+        // Dark themes
         DarkMode,
         Dracula,
         TokyoNight,
@@ -318,11 +427,19 @@ public static class ThemeService
         Cyberpunk,
         Ocean,
         Synthwave,
-        LightMode,
         SolarizedDark,
-        SolarizedLight,
         Monokai,
         Nord,
+        // Light themes
+        LightMode,
+        GitHubLight,
+        OneLight,
+        GruvboxLight,
+        CatppuccinLatte,
+        Paper,
+        TokyoNightLight,
+        SolarizedLight,
+        // Accessibility
         HighContrast
     };
 
