@@ -78,20 +78,14 @@ A modern, extensible Windows application for generating BBCode and Markdown form
 
 ## Screenshots
 
-```
-┌─────────────────────────────────────────────────────────┐
-│ [Platform ▼] [Theme ▼]              [?] [Settings] [X] │
-├─────────────────────────────────────────────────────────┤
-│ Toolbar: [B][I][U][S][Color][Size][Link][Img][Table]... │
-├───────────────────────────┬─────────────────────────────┤
-│                           │                             │
-│   INPUT TEXT AREA         │   GENERATED CODE            │
-│                           │   (auto-copied)             │
-│                           │                             │
-├───────────────────────────┴─────────────────────────────┤
-│ Status: Ready | Platform: phpBB | Theme: Dark           │
-└─────────────────────────────────────────────────────────┘
-```
+### Main Interface
+![Main Interface](docs/images/screenshot-1.png)
+
+### Theme Examples
+![Theme Example](docs/images/screenshot-2.png)
+
+### Features in Action
+![Features](docs/images/screenshot-3.png)
 
 ## Installation
 
